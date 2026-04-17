@@ -1,10 +1,124 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Books</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booknest | Your Digital Reading Nook</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fcfaf7; /* Creamy book-like background */
+        }
+
+        /* Navigation */
+        nav {
+            background: #fff;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #5d4037;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), 
+                        url('https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=1000');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: #2c1e1a;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        /* Button Styling */
+        .btn {
+            display: inline-block;
+            background-color: #8d6e63;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #5d4037;
+        }
+
+        /* Arrivals Section */
+        .section {
+            padding: 60px 5%;
+            text-align: center;
+        }
+
+        .arrival-tag {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            color: #8d6e63;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #2c1e1a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-<h3>Welcome to store</h3>
-<p>Books available here</p>
-<a href="#">Buy</a>
+
+    <nav>
+        <a href="#" class="logo">📚 Booknest</a>
+        <div>
+            <a href="#" style="margin-right:20px; text-decoration:none; color:#333;">Catalog</a>
+            <a href="#" style="text-decoration:none; color:#333;">Sign In</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <p class="arrival-tag">The Wait is Over</p>
+        <h1>Your Digital Nook for Every Book</h1>
+        <p>Discover a curated selection of fresh titles and timeless stories handpicked for the season ahead.</p>
+        <a href="#" class="btn">Shop Spring Arrivals</a>
+    </header>
+
+    <section class="section">
+        <h2>Spring Arrivals have landed.</h2>
+        <p>New stories have hatched—explore the latest arrivals at Booknest.</p>
+        </section>
+
+    <footer>
+        <p>&copy; 2026 Booknest Online Bookstore. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
